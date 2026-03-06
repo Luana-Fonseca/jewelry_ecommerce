@@ -104,7 +104,6 @@ jewelry_ecommerce/
 
 ## ✨ Funcionalidades
 
-- ✅ **Autenticação OAuth** - Login seguro com Manus
 - ✅ **40 Produtos** - Distribuídos em 4 coleções (Anéis, Colares, Pulseiras, Brincos)
 - ✅ **Página de Detalhes** - Informações completas com especificações
 - ✅ **Carrinho de Compras** - Adicionar/remover produtos
@@ -211,26 +210,3 @@ npm install -g pnpm
 - **tRPC**: https://trpc.io
 - **Drizzle ORM**: https://orm.drizzle.team
 
-## 🎯 Próximas Melhorias
-
-- [ ] Integração com Stripe para pagamento
-- [ ] Filtros avançados de produtos (preço, material, avaliação)
-- [ ] Sistema de avaliações de clientes
-- [ ] Admin panel para gerenciar produtos
-- [ ] Notificações por email
-- [ ] Programa de fidelidade
-- [ ] Chat com suporte
-
-## 📝 Licença
-
-Este projeto é fornecido como está para fins educacionais e comerciais.
-
-## 👨‍💻 Desenvolvido por
-
-Manus - Plataforma de Desenvolvimento Web
-
----
-
-**Desenvolvido com ❤️ para Luxe Joias**
-
-Para mais informações, consulte o arquivo `INSTALACAO_WINDOWS.md` para um guia passo a passo detalhado.
