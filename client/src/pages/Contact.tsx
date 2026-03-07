@@ -180,11 +180,17 @@ export default function Contact() {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-semibold mb-2">
+                      <label
+                        htmlFor="subject"
+                        className="block mb-2 text-sm font-medium"
+                      >
                         Assunto
                       </label>
+
                       <select
+                        id="subject"
                         name="subject"
+                        aria-label="Assunto da mensagem"
                         value={formData.subject}
                         onChange={handleChange}
                         required

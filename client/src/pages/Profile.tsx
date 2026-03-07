@@ -114,42 +114,66 @@ export default function Profile() {
 
           {/* Main Content */}
           <div className="md:col-span-3">
-            {/* Informações Pessoais */}
             {activeTab === "info" && (
               <div className="bg-card rounded-lg p-8 shadow-lg">
                 <h2 className="text-3xl font-bold mb-6">Informações Pessoais</h2>
+
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    {/* Nome */}
                     <div>
-                      <label className="text-sm font-semibold text-muted-foreground mb-2 block">
+                      <label
+                        htmlFor="nome"
+                        className="text-sm font-semibold text-muted-foreground mb-2 block"
+                      >
                         Nome Completo
                       </label>
+
                       <input
+                        id="nome"
                         type="text"
                         value={user.name || ""}
                         readOnly
+                        aria-label="Nome completo"
                         className="w-full px-4 py-3 bg-secondary rounded-lg border border-border"
                       />
                     </div>
+
+                    {/* Email */}
                     <div>
-                      <label className="text-sm font-semibold text-muted-foreground mb-2 block">
+                      <label
+                        htmlFor="email"
+                        className="text-sm font-semibold text-muted-foreground mb-2 block"
+                      >
                         Email
                       </label>
+
                       <input
+                        id="email"
                         type="email"
                         value={user.email || ""}
                         readOnly
+                        aria-label="Email do usuário"
                         className="w-full px-4 py-3 bg-secondary rounded-lg border border-border"
                       />
                     </div>
+
                   </div>
 
+                  {/* Data */}
                   <div>
-                    <label className="text-sm font-semibold text-muted-foreground mb-2 block">
+                    <label
+                      htmlFor="dataCadastro"
+                      className="text-sm font-semibold text-muted-foreground mb-2 block"
+                    >
                       Data de Cadastro
                     </label>
+
                     <input
+                      id="dataCadastro"
                       type="text"
+                      aria-label="Data de cadastro"
                       value={new Date(user.createdAt).toLocaleDateString("pt-BR")}
                       readOnly
                       className="w-full px-4 py-3 bg-secondary rounded-lg border border-border"
@@ -160,93 +184,9 @@ export default function Profile() {
                     <p className="text-sm text-muted-foreground mb-4">
                       Para alterar suas informações, entre em contato com nosso suporte.
                     </p>
+
                     <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
                       Contatar Suporte
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* Meus Pedidos */}
-            {activeTab === "orders" && (
-              <div className="bg-card rounded-lg p-8 shadow-lg">
-                <h2 className="text-3xl font-bold mb-6">Meus Pedidos</h2>
-                <div className="text-center py-12">
-                  <ShoppingBag size={48} className="mx-auto text-muted-foreground mb-4" />
-                  <p className="text-muted-foreground mb-6">
-                    Você ainda não realizou nenhum pedido.
-                  </p>
-                  <Button
-                    onClick={() => setLocation("/")}
-                    className="bg-accent hover:bg-accent/90 text-accent-foreground"
-                  >
-                    Começar a Comprar
-                  </Button>
-                </div>
-              </div>
-            )}
-
-            {/* Minha Lista de Desejos */}
-            {activeTab === "wishlist" && (
-              <div className="bg-card rounded-lg p-8 shadow-lg">
-                <h2 className="text-3xl font-bold mb-6">Minha Lista de Desejos</h2>
-                <div className="text-center py-12">
-                  <Heart size={48} className="mx-auto text-muted-foreground mb-4" />
-                  <p className="text-muted-foreground mb-6">
-                    Sua lista de desejos está vazia.
-                  </p>
-                  <Button
-                    onClick={() => setLocation("/")}
-                    className="bg-accent hover:bg-accent/90 text-accent-foreground"
-                  >
-                    Explorar Coleções
-                  </Button>
-                </div>
-              </div>
-            )}
-
-            {/* Configurações */}
-            {activeTab === "settings" && (
-              <div className="bg-card rounded-lg p-8 shadow-lg">
-                <h2 className="text-3xl font-bold mb-6">Configurações</h2>
-                <div className="space-y-6">
-                  <div className="border-b border-border pb-6">
-                    <h3 className="text-xl font-bold mb-4">Notificações</h3>
-                    <div className="space-y-3">
-                      <label className="flex items-center gap-3">
-                        <input type="checkbox" defaultChecked className="w-4 h-4" />
-                        <span>Receber emails sobre novas coleções</span>
-                      </label>
-                      <label className="flex items-center gap-3">
-                        <input type="checkbox" defaultChecked className="w-4 h-4" />
-                        <span>Receber ofertas e promoções exclusivas</span>
-                      </label>
-                      <label className="flex items-center gap-3">
-                        <input type="checkbox" className="w-4 h-4" />
-                        <span>Receber notificações de pedidos</span>
-                      </label>
-                    </div>
-                  </div>
-
-                  <div className="border-b border-border pb-6">
-                    <h3 className="text-xl font-bold mb-4">Privacidade</h3>
-                    <p className="text-muted-foreground mb-4">
-                      Suas informações pessoais são protegidas e nunca serão compartilhadas
-                      com terceiros sem seu consentimento.
-                    </p>
-                    <Button variant="outline" className="border-border hover:bg-secondary">
-                      Ler Política de Privacidade
-                    </Button>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-bold mb-4">Conta</h3>
-                    <Button
-                      onClick={handleLogout}
-                      className="bg-destructive hover:bg-destructive/90 text-destructive-foreground"
-                    >
-                      Sair da Conta
                     </Button>
                   </div>
                 </div>
