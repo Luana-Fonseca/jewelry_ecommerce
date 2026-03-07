@@ -53,20 +53,20 @@ const products: Product[] = [
     rating: 5,
   },
   {
-    id: 5,
+    id: 11,
     name: "Anel de Safira",
     category: "Anéis",
     price: 3200,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/hero-jewelry-banner-289iPCEjcu8hMNBZvzeUrp.webp",
-    description: "Anel exquisito de safira com ouro branco",
+    image: "https://images.unsplash.com/photo-1735480165036-3d1d2f41460f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Anel de safira com ouro branco",
     rating: 5,
   },
   {
-    id: 6,
+    id: 29,
     name: "Pulseira de Ouro",
     category: "Pulseiras",
     price: 1600,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+    image: "https://assets.christiandior.com/is/image/diorprod/JMYD94068_SBG_E01-2?$no_transfo_lookshot_default_GHC$&crop=200,0,1600,2000&wid=1850&hei=2000&scale=1&bfc=on&qlt=85",
     description: "Pulseira clássica de ouro com design atemporal",
     rating: 5,
   },
@@ -139,7 +139,11 @@ export default function Home() {
 
             {/* Right Icons */}
             <div className="flex items-center gap-4">
-              <button className="p-2 hover:bg-secondary rounded-lg transition-colors">
+              <button
+                aria-label="Buscar"
+                title="Buscar"
+                className="p-2 hover:bg-secondary rounded-lg transition-colors"
+              >
                 <Search size={20} />
               </button>
               <button
@@ -295,6 +299,16 @@ export default function Home() {
                       e.stopPropagation();
                       toggleWishlist(product.id);
                     }}
+                    aria-label={
+                      wishlist.includes(product.id)
+                        ? "Remover da lista de desejos"
+                        : "Adicionar à lista de desejos"
+                    }
+                    title={
+                      wishlist.includes(product.id)
+                        ? "Remover da lista de desejos"
+                        : "Adicionar à lista de desejos"
+                    }
                     className={`absolute top-4 right-4 p-2 rounded-full transition-all ${
                       wishlist.includes(product.id)
                         ? "bg-accent text-accent-foreground"
@@ -515,7 +529,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Luxe Joias. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Luxe Joias. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
@@ -531,6 +545,8 @@ export default function Home() {
               <h2 className="text-2xl font-bold">Carrinho de Compras</h2>
               <button
                 onClick={() => setCartOpen(false)}
+                aria-label="Fechar carrinho"
+                title="Fechar carrinho"
                 className="p-2 hover:bg-secondary rounded-lg transition-colors"
               >
                 <X size={20} />

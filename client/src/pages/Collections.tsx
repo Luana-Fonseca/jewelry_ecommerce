@@ -240,7 +240,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Pérolas Naturais",
       category: "Pulseiras",
       price: 2200,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://img.elo7.com.br/product/685x685/464400F/pulseira-perolas-naturais-barrocas-7-9mm-banho-ouro-18k-carulina.jpg",
       description: "Pulseira elegante com pérolas naturais",
       rating: 5,
     },
@@ -249,7 +249,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Ouro Rosado com Diamantes",
       category: "Pulseiras",
       price: 2600,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfgm-m9vz31ieno7w61",
       description: "Pulseira de ouro rosado com diamantes",
       rating: 5,
     },
@@ -258,7 +258,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Esmeralda Vintage",
       category: "Pulseiras",
       price: 3200,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://tse3.mm.bing.net/th/id/OIP.EOZWkva5lkdMQsdEWLEJ4QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       description: "Pulseira vintage com esmeralda natural",
       rating: 5,
     },
@@ -267,7 +267,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Rubi Clássica",
       category: "Pulseiras",
       price: 2900,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://rudiss.com.br/wp-content/uploads/2021/11/IMG_20211109_092942.jpg",
       description: "Pulseira elegante com rubi natural",
       rating: 5,
     },
@@ -276,7 +276,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Cristal de Rocha",
       category: "Pulseiras",
       price: 1400,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://tse2.mm.bing.net/th/id/OIP.mzVHsqmmXPRjVxaoZ_PRDgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       description: "Pulseira artesanal com cristal de rocha",
       rating: 5,
     },
@@ -285,7 +285,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Pulseira de Ouro Branco Gravada",
       category: "Pulseiras",
       price: 1800,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/bracelet-showcase-H7HRyXa3Vik9HErXLti4ux.webp",
+      image: "https://i.pinimg.com/736x/2b/e0/31/2be0318084c0b866454d5e54ca3e24de.jpg",
       description: "Pulseira de ouro branco com gravação",
       rating: 5,
     },
@@ -305,7 +305,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Diamante Solitário",
       category: "Brincos",
       price: 1800,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://i.etsystatic.com/34124788/r/il/ff16fc/5912396535/il_1080xN.5912396535_5llu.jpg",
       description: "Brincos com diamante solitário",
       rating: 5,
     },
@@ -314,7 +314,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Safira Azul",
       category: "Brincos",
       price: 1600,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://img.elo7.com.br/product/zoom/4A16C35/brinco-ear-cuff-azul-safira-ouro-azul-safira.jpg",
       description: "Brincos com safira azul natural",
       rating: 5,
     },
@@ -323,7 +323,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Ouro Amarelo Clássicos",
       category: "Brincos",
       price: 800,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://hsjoiasbr.vteximg.com.br/arquivos/ids/161881-1000-1000/b2b217529.jpg?v=637949514125770000",
       description: "Brincos clássicos em ouro amarelo",
       rating: 5,
     },
@@ -332,7 +332,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Esmeralda",
       category: "Brincos",
       price: 1900,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://down-ph.img.susercontent.com/file/e48e1e0b537710a21a6d914375bf8870",
       description: "Brincos com esmeralda natural",
       rating: 5,
     },
@@ -341,7 +341,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Rubi Clássicos",
       category: "Brincos",
       price: 1700,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://tse1.mm.bing.net/th/id/OIP.hk8sc0qqX4AI77S_RqSIowHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       description: "Brincos com rubi natural",
       rating: 5,
     },
@@ -350,7 +350,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Ouro Branco Minimalista",
       category: "Brincos",
       price: 700,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://i.pinimg.com/originals/02/af/2c/02af2c4a9b633a554b253e333e1634d0.jpg",
       description: "Brincos minimalista em ouro branco",
       rating: 5,
     },
@@ -359,7 +359,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Cristal de Rocha",
       category: "Brincos",
       price: 600,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://images.tcdn.com.br/img/img_prod/788719/brinco_perola_barroca_e_base_ponto_de_luz_folheado_ouro_1487_1_2dede32f7a3f84b0c6ae98c238a33509.jpg",
       description: "Brincos artesanais com cristal",
       rating: 5,
     },
@@ -368,7 +368,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Ouro Rosado com Pérola",
       category: "Brincos",
       price: 1100,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://img.elo7.com.br/product/zoom/384AAAB/brinco-rosa-e-perola-brinco-rosa.jpg",
       description: "Brincos de ouro rosado com pérola",
       rating: 5,
     },
@@ -377,7 +377,7 @@ const collectionsData: Record<string, Product[]> = {
       name: "Brincos de Platina com Diamantes",
       category: "Brincos",
       price: 2200,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663397842081/SF2HWimCqAogVno944CGmJ/earrings-detail-n2ViHaSZUDcdKQLVNsoauC.webp",
+      image: "https://tse2.mm.bing.net/th/id/OIP.ROZsl4XgE7mHzv-yj2zUKwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       description: "Brincos de platina com diamantes",
       rating: 5,
     },
@@ -459,16 +459,26 @@ export default function Collections() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    toggleWishlist(product.id);
-                  }}
-                  className={`absolute top-3 right-3 p-2 rounded-full transition-all ${
-                    wishlist.includes(product.id)
-                      ? "bg-accent text-accent-foreground"
-                      : "bg-background/80 text-foreground hover:bg-accent hover:text-accent-foreground"
-                  }`}
-                >
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleWishlist(product.id);
+                    }}
+                    aria-label={
+                      wishlist.includes(product.id)
+                        ? "Remover da lista de desejos"
+                        : "Adicionar à lista de desejos"
+                    }
+                    title={
+                      wishlist.includes(product.id)
+                        ? "Remover da lista de desejos"
+                        : "Adicionar à lista de desejos"
+                    }
+                    className={`absolute top-3 right-3 p-2 rounded-full transition-all ${
+                      wishlist.includes(product.id)
+                        ? "bg-accent text-accent-foreground"
+                        : "bg-background/80 text-foreground hover:bg-accent hover:text-accent-foreground"
+                    }`}
+                  >
                   <Heart
                     size={18}
                     fill={wishlist.includes(product.id) ? "currentColor" : "none"}
